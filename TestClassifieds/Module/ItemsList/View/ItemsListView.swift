@@ -14,13 +14,14 @@ struct ItemsListView: View {
         NavigationView{
             Group{
                 switch viewModel.downloadState{
-                case .notLoadedYet, .loading: List { ProgressView()}.task {await viewModel.loadData()}
+                case .notLoadedYet, .loading: List { ProgressView() }.task { await viewModel.loadData() }
                 case .result(let results): makeListView(withL: results)
                 case .faliedToLoad: reloadButton
                 }
             }
             .navigationTitle("Items list")
         }
+        .ignoresSafeArea()
     }
 }
 

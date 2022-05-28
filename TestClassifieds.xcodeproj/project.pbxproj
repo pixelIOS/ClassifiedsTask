@@ -15,6 +15,7 @@
 		6AEAE280284228A5006A1CB4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAE27F284228A5006A1CB4 /* Result.swift */; };
 		6AEAE28228422A87006A1CB4 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAE28128422A87006A1CB4 /* Extenstions.swift */; };
 		6AEAE28828422BBC006A1CB4 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAE28728422BBC006A1CB4 /* ItemDetailView.swift */; };
+		6AEAE28A28423662006A1CB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAE28928423662006A1CB4 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		6AEAE27F284228A5006A1CB4 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		6AEAE28128422A87006A1CB4 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 		6AEAE28728422BBC006A1CB4 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		6AEAE28928423662006A1CB4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		6AEAE27D28422882006A1CB4 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				6AEAE28928423662006A1CB4 /* Constants.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				6AEAE27B284169D2006A1CB4 /* ItemsListViewViewModel.swift in Sources */,
 				6AEAE28228422A87006A1CB4 /* Extenstions.swift in Sources */,
 				6AEAE279284169AD006A1CB4 /* ItemsListView.swift in Sources */,
+				6AEAE28A28423662006A1CB4 /* Constants.swift in Sources */,
 				6AEAE280284228A5006A1CB4 /* Result.swift in Sources */,
 				6AEAE26628416950006A1CB4 /* TestClassifiedsApp.swift in Sources */,
 			);
